@@ -1,0 +1,108 @@
+.customize-control-title {
+	margin-top: 15px;
+	color: rgb(0, 142, 214);
+}
+.kilimandjaro_repeater_container, .kilimandjaro_general_control_repeater_container {
+	width: 100%;
+	float: left;
+	padding: 5px 0;
+	cursor:move;
+}
+.kilimandjaro_repeater_container .kilimandjaro-box-content-hidden, .kilimandjaro_general_control_repeater_container .kilimandjaro-box-content-hidden {
+	padding: 5px;
+	border: 1px solid #dfdfdf;
+	border-top:0px;
+	padding-top: 0px;
+}
+button.kilimandjaro_remove_field {
+	display: inline-block;
+	width: 25% !important;
+	height: 57px !important;
+	white-space: initial !important;
+	line-height: 17px !important;
+	float: right;
+}
+
+button.kilimandjaro_general_control_remove_field {
+	width: 100%;
+	margin-top: 10px!important;
+	 
+}
+
+button.kilimandjaro_general_control_remove_field:hover{
+	background-color:#00a0d2!important;
+	color:#FFFFFF!important;
+	border: 0;
+}
+
+
+.kilimandjaro_repeater_container .kilimandjaro_icon_link,  .kilimandjaro_general_control_repeater_container .kilimandjaro_text_control, .kilimandjaro_general_control_repeater_container .kilimandjaro_link_control{
+	width: 100% !important;
+	margin: 3px 0 0 !important;
+}
+.kilimandjaro_repeater_container .kilimandjaro_icons, .kilimandjaro_general_control_repeater_container .kilimandjaro_icon_control {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#kilimandjaro_new_field, #kilimandjaro_general_control_new_field {
+	width: 100%;
+}
+.customize-control-widget_form .widget-control-save {
+	display:block !important;
+}
+
+
+
+.kilimandjaro_our_services_image_control{
+	display:none;
+}
+
+.kilimandjaro_our_services_icon_control{
+	display:none;
+}
+
+.kilimandjaro_general_control_repeater_container .kilimandjaro-box-content-hidden{
+	display: none;
+}
+
+.kilimandjaro-customize-control-title{
+	border: 1px solid #dfdfdf;
+	cursor: move !important;
+	font-weight: bold;
+	padding: 0 10px !important;
+	height: 40px;
+	line-height: 40px !important;
+	background-color: #f1f1f1;
+	background-image: -ms-linear-gradient(top, #f9f9f9, #ececec);
+	background-image: -moz-linear-gradient(top, #f9f9f9, #ececec);
+	background-image: -o-linear-gradient(top, #f9f9f9, #ececec);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#ececec));
+	background-image: -webkit-linear-gradient(top, #f9f9f9, #ececec);
+	background-image: linear-gradient(top, #f9f9f9, #ececec);
+	overflow: hidden;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: inset 0 1px 0 #fff;
+	-webkit-box-shadow: inset 0 1px 0 #fff;
+	box-shadow: inset 0 1px 0 #fff;
+	text-align: center;
+	color:#00a0d2;
+}
+
+.kilimandjaro_image_control .custom_media_button_kilimandjaro{
+	margin-top: 5px;
+}
+
+#customize-control-kilimandjaro_contact_form_shortcode{
+	display:none;
+}
+
+.kilimandjaro_radio_control{
+    margin-top: 0;
+}
+
+.kilimandjaro_general_control_repeater_container .kilimandjaro-box-content-hidden{
+    padding-top: 5px;
+}

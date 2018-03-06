@@ -1,0 +1,4 @@
+home
+	slider
+		large pictures
+	box same height
