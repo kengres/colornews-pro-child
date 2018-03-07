@@ -31,6 +31,11 @@
 	// adding post type
 
 	require_once (POST_TYPE_URL.'/programme_posts.php');
+	require_once (POST_TYPE_URL.'/action_posts.php');
+	require_once (POST_TYPE_URL.'/publications_posts.php');
+	require_once (POST_TYPE_URL.'/a_propos_posts.php');
+	require_once (POST_TYPE_URL.'/partenaires_posts.php');
+	require_once (POST_TYPE_URL.'/contact_form.php');
 
 
 	/**
