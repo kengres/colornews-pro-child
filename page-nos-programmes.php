@@ -20,20 +20,31 @@ get_header(); ?>
          <div class="tg-inner-wrap clearfix">
             <div id="main-content-section clearfix">
                <div id="primary">
+                <div class="custom_row">
+                    <?php $param = array('post_type' => 'programmes', );
 
-         			<?php while ( have_posts() ) : the_post(); ?>
+                        $program_posts = new WP_Query( $param ) ?>
 
-         				<?php get_template_part( 'template-parts/content', 'page' ); ?>
+                        <?php if( $program_posts->have_posts() ): ?>
 
-         				<?php
-         					// If comments are open or we have at least one comment, load up the comment template.
-         					if ( comments_open() || get_comments_number() ) :
-         						comments_template();
-         					endif;
-         				?>
+                        <?php while ( $program_posts->have_posts() ) : $program_posts->the_post(); ?>
 
-         			<?php endwhile; // End of the loop. ?>
+                            <?php get_template_part( 'template-parts/content', 'page-nos-programmes' ); ?>
 
+                            <?php
+                                // If comments are open or we have at least one comment, load up the comment template.
+                                if ( comments_open() || get_comments_number() ) :
+                                    comments_template();
+                                endif;
+                            ?>
+
+                        <?php endwhile; // End of the loop. ?>
+                        
+                        <?php endif; ?>
+
+                    <?php wp_reset_postdata(); ?>
+                </div>
+                
 	            </div><!-- #primary end -->
                <?php colornews_sidebar_select(); ?>
             </div><!-- #main-content-section end -->
