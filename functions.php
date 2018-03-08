@@ -2,7 +2,7 @@
     define( 'COLORCHILD_URL', get_stylesheet_directory() );
 
     define( 'POST_TYPE_URL', COLORCHILD_URL . '/post_types' );
-    // define( 'HOOKS_URL', COLORCHILD_CHILD_URL . '/inc' );
+    define( 'HOOKS_URL', COLORCHILD_URL . '/inc' );
     // define( 'CSS_URL', COLORCHILD_CHILD_URL . '/css' );
     // define( 'CUSTOMIZE_URL', COLORCHILD_CHILD_URL . '/inc/customize' );
 
@@ -37,6 +37,8 @@
 	require_once (POST_TYPE_URL.'/partenaires_posts.php');
 	require_once (POST_TYPE_URL.'/contact_form.php');
 
+	// custom functins
+	require_once (HOOKS_URL. '/functions.php');
 
 	/**
  * function to show the footer info, copyright information
