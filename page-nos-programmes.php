@@ -21,7 +21,7 @@ get_header(); ?>
             <div id="main-content-section clearfix">
                <div id="primary">
                 <div class="custom_row">
-                    <?php $param = array('post_type' => 'programmes', );
+                    <?php $param = array('post_type' => 'programmes', 'orderby'=> 'date', 'order'=> 'asc' );
 
                         $program_posts = new WP_Query( $param ) ?>
 

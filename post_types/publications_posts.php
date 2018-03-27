@@ -23,13 +23,13 @@
 			'query_var' => true,
 			'rewrite' => true,
 			'capability_type' => 'post',
+			'taxonomies'  => array( 'category' ),
 			'hierarchical' => false,
 			'supports' => array (
 				'title',
 				'editor',
 				'excerpt',
-				'custom-fields',
-				
+				'custom-fields'
 
 			),
 			'menu_position' => 5,
